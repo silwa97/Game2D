@@ -3292,8 +3292,8 @@ GameObject:
   - component: {fileID: 1900547249}
   - component: {fileID: 1900547251}
   - component: {fileID: 1900547252}
-  - component: {fileID: 1900547254}
   - component: {fileID: 1900547255}
+  - component: {fileID: 1900547256}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3477,18 +3477,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1900547254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900547244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e7bc7c57bf4624499cf389361035bad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1900547255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3499,6 +3487,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed50d3943c8615746baa383a3073c69f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1900547256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900547244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7751f44f29c6e6a42b0c1d9a16cc343e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1917843156
@@ -3641,6 +3641,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.13498688
       objectReference: {fileID: 0}
+    - target: {fileID: 1673583239133167470, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3798297714307877754, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7351067446657993929, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 3.9999695
@@ -3680,9 +3688,9 @@ GameObject:
   - component: {fileID: 1929090008}
   - component: {fileID: 1929090009}
   - component: {fileID: 1929090010}
-  - component: {fileID: 1929090012}
   - component: {fileID: 1929090013}
   - component: {fileID: 1929090014}
+  - component: {fileID: 1929090015}
   m_Layer: 0
   m_Name: Chomper
   m_TagString: Untagged
@@ -3839,7 +3847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71cf60bee90d1a147bdc8f75f6b312b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementInput: {x: 0, y: 0}
   isChasing: 0
 --- !u!114 &1929090010
 MonoBehaviour:
@@ -3873,18 +3880,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1929090012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929090001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e7bc7c57bf4624499cf389361035bad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1929090013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3971,3 +3966,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visionRange: 3.08
   visionAngle: 80
+--- !u!114 &1929090015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929090001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b924ffadd311a9f4e8fac62ebb24e216, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
